@@ -1,0 +1,6 @@
+Nhật ký Tương tác AI (Prompt Log)
+•	Prompt 1 (Thiết kế trạng thái): "Trong thiết kế cơ sở dữ liệu quan hệ, tại sao việc dùng một cột is_active (kiểu TINYINT/BOOLEAN) để theo dõi vòng đời của một Đơn hàng/Lịch hẹn lại là một thiết kế tồi (Anti-pattern)? Tôi nên thay thế bằng cấu trúc nào?"
+•	Prompt 2 (Thiết kế tài chính): "Khi thiết kế cột deposit_amount và penalty_fee trong MySQL phục vụ tính toán tài chính, tôi nên dùng kiểu dữ liệu FLOAT, DOUBLE hay DECIMAL để tránh rủi ro sai số làm tròn? Tại sao?"
+•	Prompt 3 (Cú pháp SQL): "Hãy cho tôi xem cú pháp chuẩn trong MySQL để thêm một cột status với kiểu dữ liệu ENUM chứa các giá trị ('PENDING', 'CONFIRMED', 'CHECKED_IN', 'COMPLETED', 'CANCELLED') vào một bảng có sẵn."
+•	Prompt 4 (Truy vấn & Ràng buộc): "Viết cho tôi một câu lệnh SQL SELECT kết hợp JOIN giữa bảng Appointments và Prescriptions để lấy ra danh sách tất cả bệnh nhân đã hoàn tất khám bệnh và chi tiết đơn thuốc. Cần thiết lập ON DELETE CASCADE hay RESTRICT cho khóa ngoại này?"
+
